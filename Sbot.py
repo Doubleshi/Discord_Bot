@@ -31,6 +31,8 @@ async def on_message(message):
 	# ignore @everyone mentions
 	if message.mention_everyone:
 		return
+	if message.mention_everyone:
+        return
 	# if the message mentions the bot, then do something
 	elif client.user.mentioned_in(message): 
 		response = openai.ChatCompletion.create(
