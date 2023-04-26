@@ -4,7 +4,7 @@ workers:
   - name: worker  
     environment_slug: python  
     github:  
-      repo: katsully/chatgpt-discord-bot  
+      repo: Doubleshi/chatgpt-discord-bot  
       branch: main  
     instance_count: 1  
     instance_size_slug: basic-xxs 
