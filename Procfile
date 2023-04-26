@@ -1,1 +1,1 @@
-web: python Sbot.py
+worker: python Sbot.py
