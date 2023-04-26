@@ -1,11 +1,11 @@
 name: seahorse-app
-region: nyc  
+region: london  
 workers:  
   - name: worker  
     environment_slug: python  
     github:  
-      repo: Doubleshi/chatgpt-discord-bot  
+      repo: Doubleshi/Discord_Bot 
       branch: main  
     instance_count: 1  
     instance_size_slug: basic-xxs 
-    run_command: python bot.py 
+    run_command: python Sbot.py 
