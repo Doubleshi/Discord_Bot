@@ -20,7 +20,7 @@ url = "{}dalle/text-to-image?api-version={}".format(api_base, api_version)
 headers= { "api-key": api_key, "Content-Type": "application/json" }
 body = {
     "caption": "A dog in a hat",
-    "resolution": "1024x960"
+    "resolution": "1024x2048"
 }
 submission = requests.post(url, headers=headers, json=body)
 operation_location = submission.headers['Operation-Location']
